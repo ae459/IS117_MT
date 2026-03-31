@@ -31,19 +31,62 @@ The visitor-facing museum includes:
 - `docs/foundation/` durable design philosophy and implementation guidance
 - `docs/content/` collection-model and content-architecture notes
 
-## Process and Documentation
+## Orchestration Process
 
-The museum follows a lightweight specs-driven workflow inspired by the AI museum reference project:
+The museum follows a lightweight specs-driven orchestration workflow inspired by the AI museum reference project:
 
 - spec -> sprint -> implementation -> QA
+
+The purpose of this process is to keep the exhibition from drifting into random page edits or unstructured fan content. Each layer has a specific job:
+
+- **Spec** defines the curatorial problem, design goals, risks, architecture, and verification strategy for a feature or workstream.
+- **Sprint** breaks that larger goal into one bounded execution unit with a clear scope, target files, acceptance criteria, and verification checklist.
+- **Implementation** applies the change in the active `docs/` site and supporting documentation.
+- **QA** checks visual alignment, file validity, links, media references, and exhibition coherence before the change is treated as complete.
+
+In practice, the orchestration model is used to preserve intent across sessions. The site may be static HTML/CSS, but the planning model is still durable, curator-driven, and evidence-based.
 
 Key documents:
 
 - `docs/_specs/README.md`
+- `docs/foundation/orchestration-method.md`
 - `docs/foundation/site-design-philosophy.md`
 - `docs/foundation/site-implementation-codex.md`
 - `docs/foundation/site-spec-patterns.md`
 - `docs/content/collection-model.md`
+
+## Style and Visual Direction
+
+The project uses a **Bauhaus-inspired museum style** adapted to Marvel subject matter.
+
+That means the site emphasizes:
+
+- strong geometry and disciplined layout
+- restrained color blocking and clear hierarchy
+- typography that feels editorial rather than decorative
+- exhibit-style rooms instead of generic web sections
+- visible artifacts, portraits, and object surfaces instead of abstract filler graphics
+
+The intended result is a site that feels both educational and energetic: serious enough to read like a museum, but vivid enough to fit Marvel's history and cultural scale.
+
+## Brand Position
+
+The museum's brand posture blends two main archetypal roles:
+
+- **Hero** — drawn from Marvel's legacy of iconic characters, conflict, transformation, and cultural scale
+- **Sage** — drawn from the museum voice, chronology-led interpretation, and emphasis on historical context and evidence
+
+Together, these create a brand identity that is not just exciting, but authoritative and interpretive. The project is meant to feel like a place where Marvel is not only celebrated, but explained.
+
+## Persuasion Methods Used
+
+The exhibition relies on persuasive design methods in a restrained, educational way rather than a marketing-heavy way. The clearest methods used in the current project are:
+
+- **Authority** — the museum framing, curatorial voice, labeled rooms, and evidence surfaces make the site feel trustworthy and intentional
+- **Social proof** — key figures such as Stan Lee, Jack Kirby, and major crossover artifacts show how Marvel gained legitimacy, visibility, and shared cultural recognition
+- **Scarcity** — first appearances, foundational issues, and landmark objects are treated as rare or pivotal artifacts, which increases their perceived significance
+
+These methods support the museum thesis by helping visitors feel that the material matters historically, not just nostalgically.
 
 ## GitHub Pages Deployment
 
