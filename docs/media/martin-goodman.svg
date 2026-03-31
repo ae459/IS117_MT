@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait card for Martin Goodman</title>
+  <desc id="desc">A framed museum-style portrait illustration of publisher Martin Goodman.</desc>
+  <rect width="600" height="760" fill="#ece3d1"/>
+  <rect x="60" y="54" width="480" height="560" rx="12" fill="#f8f4ea" stroke="#111" stroke-width="10"/>
+  <rect x="95" y="90" width="410" height="490" fill="#d8d1c5"/>
+  <ellipse cx="300" cy="598" rx="130" ry="20" fill="#cdbfa8" opacity="0.7"/>
+  <ellipse cx="300" cy="252" rx="108" ry="132" fill="#d8b287"/>
+  <path d="M198 218 C198 143 246 112 300 112 C353 112 401 143 401 218 L401 232 C381 194 344 175 300 175 C255 175 219 194 198 232 Z" fill="#4a3426"/>
+  <ellipse cx="262" cy="252" rx="11" ry="14" fill="#111"/>
+  <ellipse cx="338" cy="252" rx="11" ry="14" fill="#111"/>
+  <path d="M274 322 C290 333 309 333 326 322" fill="none" stroke="#7b4e3b" stroke-width="6" stroke-linecap="round"/>
+  <rect x="214" y="392" width="172" height="150" rx="18" fill="#374c65"/>
+  <polygon points="300,396 270,462 330,462" fill="#f3e8d6"/>
+  <rect x="132" y="636" width="336" height="74" rx="10" fill="#fffdf7" stroke="#111" stroke-width="8"/>
+  <text x="300" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#111">Martin Goodman</text>
+  <text x="300" y="706" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">Publisher · Timely Comics</text>
+</svg>

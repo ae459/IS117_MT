@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Fantastic Four number 1 on museum display</title>
+  <desc id="desc">A comic issue in a display sleeve with a cover scene evoking the Fantastic Four emerging against a city backdrop.</desc>
+  <rect width="800" height="1100" fill="#ece3d0"/>
+  <rect x="0" y="0" width="800" height="340" fill="#d7d2c9"/>
+  <ellipse cx="400" cy="930" rx="250" ry="46" fill="#cfc2a9" opacity="0.8"/>
+  <rect x="210" y="165" width="380" height="650" rx="14" fill="#faf7ef" stroke="#111" stroke-width="10"/>
+  <rect x="230" y="185" width="340" height="610" rx="10" fill="#fffdf7" stroke="#b6ab95" stroke-width="4"/>
+  <rect x="242" y="205" width="316" height="92" fill="#1f5ed1"/>
+  <text x="400" y="262" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="900" letter-spacing="1.5" fill="#fff">FANTASTIC FOUR</text>
+  <text x="400" y="328" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#111">Issue #1 · 1961</text>
+  <rect x="258" y="356" width="284" height="334" fill="#f2e4c3" stroke="#111" stroke-width="6"/>
+  <rect x="272" y="560" width="256" height="104" fill="#887e6b"/>
+  <rect x="292" y="505" width="34" height="156" fill="#b85d3b"/>
+  <rect x="478" y="486" width="32" height="175" fill="#2578d9"/>
+  <rect x="350" y="498" width="36" height="163" fill="#c9492c"/>
+  <circle cx="430" cy="468" r="64" fill="#d49827" stroke="#111" stroke-width="5"/>
+  <path d="M330 470 C360 424 399 396 456 388 C484 384 504 392 520 408 C476 412 440 434 423 470 C452 480 472 505 478 540 C446 515 417 504 381 503 C357 502 339 488 330 470 Z" fill="#6b4a2d" stroke="#111" stroke-width="5"/>
+  <rect x="286" y="852" width="228" height="34" fill="#5a5246" stroke="#111" stroke-width="6"/>
+  <rect x="330" y="812" width="140" height="42" fill="#796d5f" stroke="#111" stroke-width="6"/>
+  <rect x="140" y="918" width="520" height="110" rx="10" fill="#fffdf7" stroke="#111" stroke-width="8"/>
+  <text x="400" y="962" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#111">Fantastic Four #1</text>
+  <text x="400" y="994" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#333">
+    <tspan x="400" dy="0">Shared-universe ignition</tspan>
+    <tspan x="400" dy="24">Comic in archival sleeve with interpretive label</tspan>
+  </text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a Marvel Cinematic Universe prop wall</title>
+  <desc id="desc">Three cinematic helmets and props displayed in museum vitrines with lighting and labels.</desc>
+  <rect width="800" height="600" fill="#111215"/>
+  <rect x="70" y="50" width="660" height="500" rx="18" fill="#f5f0e6" stroke="#111" stroke-width="12"/>
+  <rect x="120" y="100" width="560" height="310" fill="#d7d0c3" stroke="#111" stroke-width="10"/>
+  <rect x="145" y="126" width="150" height="252" fill="#f4f1e8" stroke="#111" stroke-width="6"/>
+  <rect x="325" y="126" width="150" height="252" fill="#f4f1e8" stroke="#111" stroke-width="6"/>
+  <rect x="505" y="126" width="150" height="252" fill="#f4f1e8" stroke="#111" stroke-width="6"/>
+  <ellipse cx="220" cy="154" rx="48" ry="18" fill="#fff7cf" opacity="0.55"/>
+  <ellipse cx="400" cy="154" rx="48" ry="18" fill="#fff7cf" opacity="0.55"/>
+  <ellipse cx="580" cy="154" rx="48" ry="18" fill="#fff7cf" opacity="0.55"/>
+  <path d="M183 226 C183 182 214 158 252 158 C282 158 302 180 302 208 C302 231 290 252 270 266 L270 302 L198 302 L198 264 C188 254 183 241 183 226 Z" fill="#c6372f" stroke="#111" stroke-width="7"/>
+  <rect x="202" y="302" width="64" height="64" fill="#d8c9a4" stroke="#111" stroke-width="7"/>
+  <path d="M356 224 C356 185 385 159 425 159 C464 159 494 184 494 223 C494 252 481 272 464 285 L464 310 L386 310 L386 286 C367 273 356 251 356 224 Z" fill="#d2a42f" stroke="#111" stroke-width="7"/>
+  <rect x="404" y="310" width="42" height="58" fill="#d2a42f" stroke="#111" stroke-width="7"/>
+  <path d="M537 232 C537 191 565 167 605 167 C641 167 668 191 668 228 C668 255 654 276 636 288 L636 320 L564 320 L564 289 C547 278 537 257 537 232 Z" fill="#506878" stroke="#111" stroke-width="7"/>
+  <rect x="585" y="320" width="32" height="52" fill="#7f8993" stroke="#111" stroke-width="7"/>
+  <rect x="171" y="336" width="98" height="26" rx="8" fill="#fffdf7" stroke="#111" stroke-width="4"/>
+  <rect x="351" y="336" width="98" height="26" rx="8" fill="#fffdf7" stroke="#111" stroke-width="4"/>
+  <rect x="531" y="336" width="98" height="26" rx="8" fill="#fffdf7" stroke="#111" stroke-width="4"/>
+  <text x="220" y="354" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Helmet</text>
+  <text x="400" y="354" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Armor</text>
+  <text x="580" y="354" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Prop</text>
+  <rect x="145" y="440" width="510" height="74" rx="10" fill="#fffdf7" stroke="#111" stroke-width="8"/>
+  <text x="400" y="472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#111">MCU Prop Wall</text>
+  <text x="400" y="494" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#333">Vitrines of recognizable cinematic hardware and armor</text>
+</svg>

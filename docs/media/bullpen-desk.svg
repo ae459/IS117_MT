@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a Marvel editorial bullpen desk</title>
+  <desc id="desc">A drafting desk with pages, pencils, a lamp, coffee mug, and pinned layouts representing editorial culture.</desc>
+  <rect width="800" height="600" fill="#e9dfcb"/>
+  <rect x="80" y="80" width="640" height="180" fill="#d7cdb8" stroke="#111" stroke-width="10"/>
+  <rect x="120" y="116" width="150" height="100" fill="#f2ede1" stroke="#111" stroke-width="6"/>
+  <line x1="138" y1="146" x2="245" y2="146" stroke="#777" stroke-width="4"/>
+  <line x1="138" y1="171" x2="255" y2="171" stroke="#777" stroke-width="4"/>
+  <line x1="138" y1="196" x2="230" y2="196" stroke="#777" stroke-width="4"/>
+  <rect x="318" y="110" width="166" height="110" fill="#f7f3e8" stroke="#111" stroke-width="6"/>
+  <path d="M346 193 L389 136 L431 177 L458 127" fill="none" stroke="#d23d2f" stroke-width="8"/>
+  <rect x="530" y="118" width="132" height="92" fill="#f7f3e8" stroke="#111" stroke-width="6"/>
+  <circle cx="577" cy="163" r="16" fill="#edc447" stroke="#111" stroke-width="4"/>
+  <circle cx="620" cy="163" r="16" fill="#d23d2f" stroke="#111" stroke-width="4"/>
+  <rect x="120" y="250" width="560" height="240" rx="14" fill="#9b744d" stroke="#111" stroke-width="12"/>
+  <rect x="180" y="300" width="240" height="130" rx="8" fill="#f7f3e8" stroke="#111" stroke-width="6" transform="rotate(-8 300 365)"/>
+  <line x1="210" y1="335" x2="370" y2="312" stroke="#777" stroke-width="4"/>
+  <line x1="207" y1="362" x2="368" y2="339" stroke="#777" stroke-width="4"/>
+  <line x1="204" y1="389" x2="360" y2="367" stroke="#777" stroke-width="4"/>
+  <rect x="470" y="315" width="118" height="74" rx="8" fill="#efe7d6" stroke="#111" stroke-width="6"/>
+  <path d="M472 352 H586" stroke="#2364d7" stroke-width="6"/>
+  <path d="M500 288 C516 262 554 259 575 282" fill="none" stroke="#111" stroke-width="8"/>
+  <rect x="564" y="405" width="38" height="64" rx="8" fill="#e6dfd2" stroke="#111" stroke-width="5"/>
+  <path d="M564 421 C552 421 542 411 542 399 C542 383 555 372 572 374 C588 376 600 390 598 405" fill="#6f3d1c" stroke="#111" stroke-width="5"/>
+  <rect x="140" y="425" width="138" height="14" fill="#7a5940" transform="rotate(-14 140 425)"/>
+  <rect x="255" y="435" width="128" height="14" fill="#f1c643" transform="rotate(18 255 435)"/>
+  <path d="M610 245 C628 207 657 187 696 184 C674 203 657 233 646 272" fill="none" stroke="#111" stroke-width="9"/>
+  <circle cx="646" cy="272" r="22" fill="#f4e1a2" stroke="#111" stroke-width="7"/>
+  <rect x="90" y="500" width="620" height="70" rx="10" fill="#fffdf7" stroke="#111" stroke-width="8"/>
+  <text x="400" y="530" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#111">Editorial Bullpen Desk</text>
+  <text x="400" y="552" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#333">Pages, pencils, lamp, and coffee from Marvel's production culture</text>
+</svg>
