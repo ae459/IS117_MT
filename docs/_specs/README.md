@@ -1,6 +1,6 @@
 # Specifications Index
 
-This directory contains the feature specs and sprint documents that govern the Marvel Bauhaus Museum. The working rule for this project is simple: spec -> sprint -> implementation -> QA. The site may be static HTML/CSS, but the planning model is still durable, bounded, and curator-driven.
+This directory contains the feature specs and sprint documents that govern the Comic Book Museum. The working rule for this project is simple: spec -> sprint -> implementation -> QA. The site may be static HTML/CSS, but the planning model is still durable, bounded, and curator-driven.
 
 For the full method, read `docs/foundation/orchestration-method.md`.
 

@@ -2,7 +2,7 @@
 
 ## Thesis
 
-The Marvel Bauhaus Museum should feel like a curated exhibition rather than a fan site, blog, or slideshow. Every page should behave like a room, every image should behave like an object, and every supporting surface should deepen the visitor's understanding of Marvel as a historical and cultural system.
+The Comic Book Museum should feel like a curated exhibition rather than a fan site, blog, or slideshow. Every page should behave like a room, every image should behave like an object, and every supporting surface should deepen the visitor's understanding of Marvel as a historical and cultural system.
 
 ## Governing Metaphor
 

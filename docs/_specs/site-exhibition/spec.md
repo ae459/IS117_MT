@@ -4,7 +4,7 @@
 
 ## Problem Statement
 
-The Marvel Bauhaus Museum currently has a strong static presentation surface, but it does not yet have a durable process layer that explains how the exhibition should evolve. Without specs, sprint docs, and curator-facing reference documents, the project is vulnerable to drift, inconsistent additions, and loss of curatorial intent across sessions.
+The Comic Book Museum currently has a strong static presentation surface, but it does not yet have a durable process layer that explains how the exhibition should evolve. Without specs, sprint docs, and curator-facing reference documents, the project is vulnerable to drift, inconsistent additions, and loss of curatorial intent across sessions.
 
 ## Design Goals
 

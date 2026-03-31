@@ -4,7 +4,7 @@
 
 ## Problem Statement
 
-The Marvel Bauhaus Museum now has a stable curatorial foundation and a coherent static exhibition surface, but its collection logic is still light. Objects, people, rooms, and evidence surfaces exist visually, yet the project does not fully encode why each object matters, how rooms should be enriched, or how future additions should be grouped and justified.
+The Comic Book Museum now has a stable curatorial foundation and a coherent static exhibition surface, but its collection logic is still light. Objects, people, rooms, and evidence surfaces exist visually, yet the project does not fully encode why each object matters, how rooms should be enriched, or how future additions should be grouped and justified.
 
 Without a dedicated enrichment workstream, new content risks becoming decorative rather than curatorial.
 
