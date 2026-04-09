@@ -38,7 +38,7 @@ The public entry page should frame the visitor before they enter the chronology 
 - `docs/eras/*.html`
 - `docs/people-and-studios.html`
 - `docs/reading-maps/publication-lineage.html`
-- `docs/guides/bauhaus-marvel-language.html`
+- `docs/guides/collection-highlights.html`
 - `docs/media/*.svg` when new object cards are justified
 
 ## Risks

@@ -42,13 +42,13 @@ Review the full exhibition for continuity after component-level alignment work.
 
 ## Verification checklist
 
-- [ ] run HTML/CSS/SVG error review on touched files
-- [ ] inspect homepage, chronology pages, people room, and gallery in browser preview
-- [ ] verify cards, captions, and headings remain visually consistent across routes
-- [ ] verify no obvious overflow, misalignment, or caption imbalance remains
+- [x] run HTML/CSS/SVG error review on touched files
+- [x] inspect homepage, chronology pages, people room, and gallery in browser preview
+- [x] verify cards, captions, and headings remain visually consistent across routes
+- [x] verify no obvious overflow, misalignment, or caption imbalance remains
 
 ## Completion evidence
 
-- URL: repository paths to any touched pages and assets
-- Screenshots: route-level captures showing continuity across the exhibition
-- PR / commit: link or commit hash when the sprint is implemented
+- URL: `docs/index.html`, `docs/home.html`, `docs/styles.css`, `docs/eras/golden-age.html`, `docs/eras/marvel-age.html`, `docs/eras/cinematic-age.html`, `docs/people-and-studios.html`, `docs/reading-maps/publication-lineage.html`, `docs/guides/collection-highlights.html`
+- Screenshots: compare the threshold page, opening gallery, chronology rooms, people room, lineage room, and object gallery after the first-pass system refinements
+- PR / commit: pending repository commit

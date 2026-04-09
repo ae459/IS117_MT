@@ -16,7 +16,7 @@ The active product lives entirely under `docs/`.
 - `docs/eras/cinematic-age.html` -> Room 3
 - `docs/reading-maps/publication-lineage.html` -> issue evidence room
 - `docs/people-and-studios.html` -> cast and institutions room
-- `docs/guides/bauhaus-marvel-language.html` -> object gallery / collection highlights
+- `docs/guides/collection-highlights.html` -> object gallery / collection highlights
 
 ## CSS Architecture
 

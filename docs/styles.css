@@ -1,12 +1,16 @@
 :root {
   --paper: #f4efe2;
   --paper-strong: #e7ddc3;
+  --paper-soft: #fbf7ec;
   --ink: #111111;
   --muted: #514c42;
   --red: #d92d20;
   --blue: #1d4ed8;
   --yellow: #f7c948;
   --line: #111111;
+  --frame: 2px solid var(--line);
+  --shadow-strong: 6px 6px 0 var(--line);
+  --shadow-soft: 4px 4px 0 var(--line);
   --space-xs: 0.5rem;
   --space-s: 0.875rem;
   --space-m: 1.25rem;
@@ -29,7 +33,7 @@ body {
   font-family: Futura, "Avenir Next", Avenir, Montserrat, Arial, sans-serif;
   color: var(--ink);
   background:
-    linear-gradient(90deg, transparent 0 11%, rgba(17, 17, 17, 0.04) 11% 11.4%, transparent 11.4% 100%),
+    linear-gradient(90deg, transparent 0 12%, rgba(17, 17, 17, 0.03) 12% 12.2%, transparent 12.2% 100%),
     linear-gradient(180deg, var(--paper) 0%, #f8f4ea 100%);
 }
 
@@ -50,8 +54,8 @@ a {
 .editorial-aside,
 .bauhaus-block,
 .quote-block {
-  border: 3px solid var(--line);
-  box-shadow: 8px 8px 0 var(--line);
+  border: var(--frame);
+  box-shadow: var(--shadow-strong);
 }
 
 .site-header,
@@ -63,7 +67,7 @@ a {
 
 .site-header {
   margin-top: 1rem;
-  background: #fff9ee;
+  background: var(--paper-soft);
 }
 
 .site-header__inner,
@@ -78,8 +82,10 @@ a {
 }
 
 .site-header__subnav {
-  border-top: 3px solid var(--line);
-  background: var(--paper-strong);
+  border-top: var(--frame);
+  background: color-mix(in srgb, var(--paper-strong) 72%, white);
+  justify-content: flex-start;
+  gap: var(--space-s);
 }
 
 .site-main {
@@ -89,6 +95,10 @@ a {
 .site-brand {
   display: grid;
   gap: 0.2rem;
+}
+
+.site-brand__eyebrow {
+  color: var(--muted);
 }
 
 .kicker,
@@ -113,10 +123,10 @@ a {
 .site-footer__title,
 .transition-block__title {
   margin: 0;
-  font-size: clamp(2rem, 5vw, 4.6rem);
-  line-height: 0.95;
+  font-size: clamp(2rem, 4.4vw, 4.2rem);
+  line-height: 0.98;
   text-transform: uppercase;
-  max-width: 11ch;
+  max-width: 12ch;
 }
 
 .site-nav,
@@ -125,7 +135,7 @@ a {
 .button-row {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-s);
+  gap: 0.7rem;
 }
 
 .nav-link,
@@ -133,15 +143,24 @@ a {
 .button-link,
 .site-footer__link {
   display: inline-block;
-  padding: 0.7rem 1rem;
-  border: 2px solid var(--line);
+  padding: 0.65rem 0.95rem;
+  border: var(--frame);
   background: white;
-  box-shadow: 4px 4px 0 var(--line);
+  box-shadow: var(--shadow-soft);
   font-weight: 700;
 }
 
+.nav-link,
+.site-footer__link {
+  background: var(--paper-soft);
+}
+
 .nav-chip {
-  background: var(--yellow);
+  background: transparent;
+  box-shadow: none;
+  font-size: 0.86rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .button-link--dark {
@@ -153,7 +172,7 @@ a {
   position: relative;
   overflow: hidden;
   background: #fffdf7;
-  padding: var(--space-xl);
+  padding: clamp(1.5rem, 3vw, 2.75rem);
 }
 
 .hero-panel::before {
@@ -161,8 +180,8 @@ a {
   position: absolute;
   inset: 0 auto auto 0;
   width: 100%;
-  height: 9rem;
-  background: linear-gradient(180deg, color-mix(in srgb, var(--chapter-accent, var(--red)) 16%, transparent), transparent);
+  height: 7rem;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--chapter-accent, var(--red)) 10%, transparent), transparent);
   opacity: 1;
   pointer-events: none;
 }
@@ -184,6 +203,10 @@ a {
   margin-bottom: var(--space-2xl);
 }
 
+.home-opening {
+  gap: 1rem;
+}
+
 .chapter-hero {
   grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.9fr);
   align-items: start;
@@ -201,8 +224,15 @@ a {
 .chapter-list li,
 .quote-block {
   font-size: 1.05rem;
-  line-height: 1.7;
+  line-height: 1.65;
   color: var(--muted);
+}
+
+.home-opening__lede,
+.chapter-hero__lede,
+.transition-block__copy,
+.site-footer__copy {
+  max-width: 62ch;
 }
 
 .home-opening__principles,
@@ -224,6 +254,10 @@ a {
 .dual-column,
 .artifact-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-feature-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .portrait-grid {
@@ -263,23 +297,25 @@ a {
 }
 
 .section-heading__title {
-  font-size: clamp(1.7rem, 4vw, 3rem);
-  max-width: 14ch;
+  font-size: clamp(1.55rem, 3.5vw, 2.7rem);
+  max-width: 16ch;
 }
 
 .content-card {
-  background: #fffdf7;
+  background: var(--paper-soft);
   display: grid;
-  gap: var(--space-s);
+  gap: 0.75rem;
+  align-content: start;
+  min-height: 100%;
 }
 
 .artifact-card {
-  background: #fffdf7;
+  background: var(--paper-soft);
   display: grid;
-  gap: var(--space-s);
+  gap: 0.75rem;
   padding: var(--space-m);
-  border: 3px solid var(--line);
-  box-shadow: 8px 8px 0 var(--line);
+  border: var(--frame);
+  box-shadow: var(--shadow-strong);
 }
 
 .artifact-card img {
@@ -292,7 +328,7 @@ a {
   display: block;
   width: 100%;
   height: auto;
-  border: 3px solid var(--line);
+  border: var(--frame);
   background: #fff;
 }
 
@@ -305,7 +341,7 @@ a {
 
 .artifact-card__title {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
@@ -315,6 +351,10 @@ a {
   gap: var(--space-s);
 }
 
+.artifact-figure figcaption {
+  max-width: 52ch;
+}
+
 .artifact-figure--wide {
   grid-column: 1 / -1;
 }
@@ -322,8 +362,14 @@ a {
 .content-card__title,
 .editorial-aside__title {
   margin: 0;
-  font-size: 1.45rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
+}
+
+.content-card__footer {
+  margin-top: auto;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(17, 17, 17, 0.16);
 }
 
 .editorial-aside {
@@ -350,7 +396,7 @@ a {
 .site-footer {
   margin-bottom: 1rem;
   align-items: flex-start;
-  background: #fff9ee;
+  background: var(--paper-soft);
 }
 
 .site-footer__links {
@@ -384,42 +430,31 @@ a {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 14% 18%, rgba(255, 255, 255, 0.95) 0 0.12rem, transparent 0.14rem),
-    radial-gradient(circle at 82% 16%, rgba(255, 255, 255, 0.9) 0 0.1rem, transparent 0.12rem),
-    radial-gradient(circle at 68% 30%, rgba(255, 255, 255, 0.78) 0 0.09rem, transparent 0.11rem),
-    radial-gradient(circle at 24% 74%, rgba(255, 255, 255, 0.85) 0 0.11rem, transparent 0.13rem),
-    radial-gradient(circle at 88% 72%, rgba(255, 255, 255, 0.82) 0 0.1rem, transparent 0.12rem),
-    radial-gradient(circle at 48% 84%, rgba(255, 255, 255, 0.88) 0 0.1rem, transparent 0.12rem),
-    radial-gradient(circle at 36% 38%, rgba(255, 255, 255, 0.7) 0 0.08rem, transparent 0.1rem),
-    radial-gradient(circle at 58% 10%, rgba(255, 255, 255, 0.76) 0 0.08rem, transparent 0.1rem),
-    linear-gradient(135deg, rgba(17, 17, 17, 0.56), rgba(17, 17, 17, 0.24)),
-    url("media/Sub-Mariner Comics vol 1 001 (Timely, 1941) (c2c digicam) (Mark_Bowen scans & edits)_0000.jpg") left 2% top 50% / 28% auto no-repeat,
-    url("media/Captain America Comics 013 (Timely, 1942) (c2c) (Mark Bowen scans & edits)_0000.jpg") left 24% top 14% / 24% auto no-repeat,
-    url("media/All-Winners Comics 001 (Timely) (1941) (c2c) (Mark Bowen)_0000.jpg") center top 54% / 24% auto no-repeat,
-    url("media/Captain America Comics 016 (Timely) (1942) (c2c, missing centerfold recreated) (Mark Bowen)_0000.jpg") right 24% top 14% / 24% auto no-repeat,
-    url("media/Complete Comics vol 01 02 (scans) (c2c) (1944) (color touched up)_0000.jpg") right 2% top 52% / 28% auto no-repeat,
-    radial-gradient(circle at 50% 45%, rgba(61, 79, 182, 0.28), transparent 34%),
-    radial-gradient(circle at 18% 78%, rgba(112, 28, 135, 0.24), transparent 28%),
-    radial-gradient(circle at 80% 24%, rgba(38, 116, 204, 0.22), transparent 30%),
+    linear-gradient(135deg, rgba(8, 11, 18, 0.84), rgba(8, 11, 18, 0.56)),
+    linear-gradient(90deg, transparent 0 14%, rgba(255, 255, 255, 0.08) 14% 14.35%, transparent 14.35% 100%),
+    url("media/Captain America Comics 013 (Timely, 1942) (c2c) (Mark Bowen scans & edits)_0000.jpg") left 3% center / 27% auto no-repeat,
+    url("media/All-Winners Comics 001 (Timely) (1941) (c2c) (Mark Bowen)_0000.jpg") center 18% / 28% auto no-repeat,
+    url("media/Complete Comics vol 01 02 (scans) (c2c) (1944) (color touched up)_0000.jpg") right 3% center / 27% auto no-repeat,
+    radial-gradient(circle at 50% 42%, rgba(61, 79, 182, 0.18), transparent 34%),
     linear-gradient(180deg, #040814 0%, #081223 42%, #05060d 100%);
-  filter: saturate(0.92) contrast(1.04);
+  filter: saturate(0.82) contrast(1.02);
   transform: scale(1.02);
 }
 
 .hero-content {
   position: relative;
   z-index: 1;
-	text-align: center;
+  text-align: left;
   width: min(100%, 40rem);
 }
 
 .hero-card {
   background: rgba(244, 239, 226, 0.94);
-	padding: var(--space-l);
-	border: 3px solid var(--line);
-	box-shadow: 8px 8px 0 var(--line);
-  max-width: 500px;
-	width: 100%;
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  border: var(--frame);
+  box-shadow: var(--shadow-strong);
+  max-width: 34rem;
+  width: 100%;
 }
 
 .hero-card__eyebrow {
@@ -433,50 +468,64 @@ a {
 
 .hero-card h1 {
   margin: 0;
-	font-size: 2.5rem;
+  font-size: clamp(2.3rem, 5vw, 4rem);
   line-height: 0.95;
   text-transform: uppercase;
+  max-width: 9ch;
+}
+
+.hero-card__lede {
+  margin: 1rem 0 0;
+  max-width: 34ch;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--muted);
 }
 
 .hero-card .author {
-	font-size: 1.2rem;
+  font-size: 1rem;
   margin: 1rem 0 var(--space-l);
-	color: var(--muted);
+  color: var(--muted);
+}
+
+.hero-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
 }
 
 .hero-card .btn {
-	display: inline-block;
-	background-color: var(--red);
-	color: var(--paper);
-	padding: var(--space-s) var(--space-l);
-	text-decoration: none;
-	font-weight: bold;
-	border: 3px solid var(--line);
-	box-shadow: 4px 4px 0 var(--line);
-	transition: all 0.2s ease-in-out;
+  display: inline-block;
+  background-color: var(--red);
+  color: var(--paper);
+  padding: var(--space-s) var(--space-l);
+  text-decoration: none;
+  font-weight: bold;
+  border: var(--frame);
+  box-shadow: var(--shadow-soft);
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-card .btn--secondary {
+  background: transparent;
+  color: var(--ink);
 }
 
 .hero-card .btn:hover {
-	background-color: var(--ink);
-	color: var(--paper);
-	transform: translate(4px, 4px);
-	box-shadow: 0 0 0 var(--line);
+  background-color: var(--ink);
+  color: var(--paper);
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 var(--line);
 }
 
 @media (max-width: 780px) {
   .hero-page::before {
     background:
-      radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.92) 0 0.11rem, transparent 0.13rem),
-      radial-gradient(circle at 84% 14%, rgba(255, 255, 255, 0.86) 0 0.1rem, transparent 0.12rem),
-      radial-gradient(circle at 26% 78%, rgba(255, 255, 255, 0.8) 0 0.09rem, transparent 0.11rem),
-      radial-gradient(circle at 72% 72%, rgba(255, 255, 255, 0.82) 0 0.09rem, transparent 0.11rem),
-      linear-gradient(135deg, rgba(17, 17, 17, 0.62), rgba(17, 17, 17, 0.3)),
-      url("media/Sub-Mariner Comics vol 1 001 (Timely, 1941) (c2c digicam) (Mark_Bowen scans & edits)_0000.jpg") left -8% top 58% / 44% auto no-repeat,
+      linear-gradient(135deg, rgba(8, 11, 18, 0.86), rgba(8, 11, 18, 0.6)),
+      url("media/Captain America Comics 013 (Timely, 1942) (c2c) (Mark Bowen scans & edits)_0000.jpg") left -8% top 58% / 44% auto no-repeat,
       url("media/All-Winners Comics 001 (Timely) (1941) (c2c) (Mark Bowen)_0000.jpg") center top 20% / 41% auto no-repeat,
       url("media/Captain America Comics 016 (Timely) (1942) (c2c, missing centerfold recreated) (Mark Bowen)_0000.jpg") right -8% top 58% / 44% auto no-repeat,
-      radial-gradient(circle at 50% 46%, rgba(61, 79, 182, 0.28), transparent 34%),
-      radial-gradient(circle at 22% 82%, rgba(112, 28, 135, 0.24), transparent 28%),
-      radial-gradient(circle at 80% 18%, rgba(38, 116, 204, 0.22), transparent 30%),
+      radial-gradient(circle at 50% 46%, rgba(61, 79, 182, 0.18), transparent 34%),
       linear-gradient(180deg, #040814 0%, #081223 42%, #05060d 100%);
   }
 
@@ -488,6 +537,7 @@ a {
 @media (max-width: 900px) {
   .chapter-hero,
   .home-opening__principles,
+  .home-feature-grid,
   .content-grid,
   .dual-column,
   .artifact-grid,
