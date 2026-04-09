@@ -21,12 +21,13 @@ The Comic Book Museum currently has a strong static presentation surface, but it
 
 The active product lives under `docs/` and currently consists of:
 
+- public hero-entry page
 - homepage / opening gallery
 - three chronology rooms
 - publication lineage room
 - people and studios room
 - collection highlights room
-- shared CSS and SVG artifact media
+- shared CSS and artifact media
 
 ### Required Durable Documents
 
@@ -77,6 +78,7 @@ Object cards, labels, and captions may lose alignment if changes are made withou
 | Sprint 0 | Rebuild the durable curatorial and process foundation documents                 |
 | Sprint 1 | Define the room system, object model, and collection logic for future additions |
 | Sprint 2 | Establish QA habits and continuity rules for docs-based museum evolution        |
+| Sprint 3 | Introduce a hero-entry threshold and document the split between entry and home  |
 
 ## Future Considerations
 

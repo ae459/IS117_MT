@@ -26,10 +26,15 @@ This workstream is organized around three systems:
 2. **Room enrichment** — adding or sharpening content inside chronology and companion rooms.
 3. **Cast logic** — improving how creators, publishers, and studios are grouped and interpreted.
 
+### Entry-Sequence Note
+
+The public entry page should frame the visitor before they enter the chronology spine. In this repo, `docs/index.html` acts as a threshold surface, while `docs/home.html` carries the main opening-gallery content. Curatorial enrichment work should preserve that distinction: the hero page should orient, signal tone, and prepare arrival, while interpretive depth should accumulate in the opening gallery and the chronology rooms that follow.
+
 ### Primary Files In Scope
 
-- `docs/content/collection-model.md`
 - `docs/index.html`
+- `docs/home.html`
+- `docs/content/collection-model.md`
 - `docs/eras/*.html`
 - `docs/people-and-studios.html`
 - `docs/reading-maps/publication-lineage.html`
