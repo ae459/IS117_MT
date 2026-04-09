@@ -49,6 +49,6 @@ Review the full exhibition for continuity after component-level alignment work.
 
 ## Completion evidence
 
-- URL: `docs/index.html`, `docs/home.html`, `docs/styles.css`, `docs/eras/golden-age.html`, `docs/eras/marvel-age.html`, `docs/eras/cinematic-age.html`, `docs/people-and-studios.html`, `docs/reading-maps/publication-lineage.html`, `docs/guides/collection-highlights.html`
+- URL: `docs/index.html`, `docs/home.html`, `docs/styles.css`, `docs/eras/golden-age.html`, `docs/eras/marvel-age.html`, `docs/eras/cinematic-age.html`, `docs/people-and-studios.html`, `docs/reading-maps/publication-lineage.html`, `docs/guides/bauhaus-marvel-language.html`
 - Screenshots: compare the threshold page, opening gallery, chronology rooms, people room, lineage room, and object gallery after the first-pass system refinements
 - PR / commit: pending repository commit
