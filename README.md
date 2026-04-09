@@ -15,21 +15,36 @@ That structure keeps the public-facing museum and the behind-the-scenes decision
 
 The visitor-facing museum includes:
 
-- an opening gallery at `docs/index.html`
+- a public hero-entry page at `docs/index.html`
+- an opening gallery at `docs/home.html`
 - three chronology-based exhibition rooms in `docs/eras/`
 - a publication lineage room in `docs/reading-maps/`
 - a people and studios room in `docs/people-and-studios.html`
 - a collection highlights room in `docs/guides/`
-- custom object, comic, and portrait illustrations in `docs/media/`
+- custom object, comic, portrait, and downloaded cover assets in `docs/media/`
 
 ## Repository Structure
 
-- `docs/index.html` main entry point for the museum
+- `docs/index.html` public hero splash page and Pages entry point
+- `docs/home.html` opening-gallery homepage reached from the entry page
 - `docs/styles.css` shared visual system and layout rules
 - `docs/eras/`, `docs/guides/`, `docs/reading-maps/`, `docs/media/` active exhibition files
 - `docs/_specs/` specs and sprint documents for major workstreams
 - `docs/foundation/` durable design philosophy and implementation guidance
 - `docs/content/` collection-model and content-architecture notes
+
+## Hero Entry Page
+
+The museum now opens with a dedicated hero-entry page at `docs/index.html` before the visitor reaches the main opening gallery in `docs/home.html`.
+
+This entry page is intended to function as an exhibition threshold rather than a generic landing page. It uses:
+
+- a centered title card with museum branding and author credit
+- an `Enter Exhibit` action that routes visitors into the main homepage
+- a comic-cover collage built from locally stored media assets in `docs/media/`
+- a starfield backdrop behind the collage to create a more dramatic sense of arrival
+
+This arrangement keeps GitHub Pages pointed at `docs/index.html` while preserving the main curatorial homepage as a separate room-like surface.
 
 ## Orchestration Process
 
@@ -96,6 +111,8 @@ Publish the site with GitHub Pages using:
 - Folder: `/docs`
 
 The file `docs/.nojekyll` is included so GitHub Pages will not ignore underscore-prefixed directories such as `docs/_specs/`.
+
+With the current hero-page setup, GitHub Pages should continue to open `docs/index.html`, and that page should direct visitors into `docs/home.html` via the entry button.
 
 ## Review and QA
 

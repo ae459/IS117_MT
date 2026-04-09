@@ -26,6 +26,7 @@ This repository is a **museum project**, not just a website. Any future work sho
 - Favor strong layout logic, restrained composition, clear hierarchy, and exhibit-style interpretation.
 - The site should feel curated, intentional, and educational.
 - Avoid decorative drift that weakens the exhibition structure.
+- Treat the public entry sequence as part of the exhibition: the first page may function as a threshold or hero splash page, but it should still feel like a museum arrival surface rather than a generic marketing landing page.
 
 ## Imagery And Objects
 
@@ -69,7 +70,8 @@ When adding or revising content:
 
 Key active areas:
 
-- `docs/index.html` — homepage / opening gallery
+- `docs/index.html` — public entry point / hero splash page
+- `docs/home.html` — main homepage / opening gallery
 - `docs/eras/` — chronology rooms
 - `docs/people-and-studios.html` — cast and institution room
 - `docs/reading-maps/` — publication lineage room
@@ -148,7 +150,8 @@ The repo is set up for GitHub Pages using:
 
 Deployment assumptions:
 
-- `docs/index.html` is the homepage
+- `docs/index.html` is the public Pages entry point
+- `docs/home.html` contains the primary opening-gallery homepage reached from the entry page
 - `docs/.nojekyll` must remain present so `_specs/` is not ignored
 
 ## What To Avoid

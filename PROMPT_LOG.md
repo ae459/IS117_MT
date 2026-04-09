@@ -307,11 +307,71 @@ This file is a reconstructed record of the major prompts used in this workspace 
 
 - `PROMPT_LOG.md`
 
+---
+
+### 18. Add a dedicated hero entry page before the museum homepage
+
+**Prompt:** create a separate hero page that visitors see first, with a collage background, a centered museum card, author credit, and an `Enter Exhibit` button leading to the main homepage.
+
+**What happened:**
+
+- The site entry flow was changed so `docs/index.html` acts as a dedicated threshold page.
+- The prior homepage content was moved to `docs/home.html` so the main exhibition could still open as a full room after the splash screen.
+- The hero page was styled with a centered entry card and supporting CSS in the shared stylesheet.
+
+**Outcome:**
+
+- The museum now begins with a distinct arrival surface before the visitor enters the main exhibition homepage.
+
+**Key files updated:**
+
+- `docs/index.html`
+- `docs/home.html`
+- `docs/styles.css`
+
+---
+
+### 19. Replace placeholder hero imagery with local comic-cover collage assets
+
+**Prompt:** use actual images for the hero background collage and keep them stored locally in `docs/media/` rather than relying on brittle external hotlinks.
+
+**What happened:**
+
+- Candidate image sources were researched and a local-asset approach was chosen for reliability.
+- Downloaded comic-cover JPGs were added to `docs/media/` and then wired into the hero background collage.
+- The collage CSS was updated so the entry page uses museum assets already inside the repository.
+
+**Outcome:**
+
+- The hero page now uses a stable, locally served comic collage instead of remote placeholder imagery.
+
+**Key files updated:**
+
+- `docs/media/*.jpg`
+- `docs/styles.css`
+
+---
+
+### 20. Change the hero backdrop to a galaxy starfield
+
+**Prompt:** change the background behind the comic collage from white to a galaxy field with stars.
+
+**What happened:**
+
+- The base hero background layer was reworked from a light museum-paper gradient to a dark starfield built from layered gradients.
+- The comic-cover collage remained in place on top of the new backdrop.
+
+**Outcome:**
+
+- The entry page now presents the comic covers against a darker, more dramatic space-like field.
+
 ## Current Repository State
 
 At the end of this log, the repository is organized around these active areas:
 
 - `docs/` — live museum and all supporting documentation
+- `docs/index.html` — public hero-entry page
+- `docs/home.html` — main opening-gallery homepage
 - `README.md` — project overview and publishing guidance
 - `AGENTS.md` — standing agent instructions for future work
 - `PROMPT_LOG.md` — reconstructed session history
@@ -320,5 +380,6 @@ At the end of this log, the repository is organized around these active areas:
 
 - GitHub Pages branch: `main`
 - GitHub Pages folder: `/docs`
-- Homepage: `docs/index.html`
+- Public entry point: `docs/index.html`
+- Opening-gallery homepage: `docs/home.html`
 - Required Pages support file: `docs/.nojekyll`
