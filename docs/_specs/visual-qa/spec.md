@@ -53,13 +53,15 @@ One-off fixes may solve a single card while making the broader system less consi
 
 ## Sprint Plan
 
-| Sprint   | Goal                                              |
-| -------- | ------------------------------------------------- |
-| Sprint 0 | Standardize comic issue cards                     |
-| Sprint 1 | Standardize portrait and object cards             |
-| Sprint 2 | Perform full-site visual QA and continuity review |
+| Sprint   | Goal                                                         |
+| -------- | ------------------------------------------------------------ |
+| Sprint 0 | Standardize comic issue cards                                |
+| Sprint 1 | Standardize portrait and object cards                        |
+| Sprint 2 | Perform full-site visual QA and continuity review            |
+| Sprint 3 | Document design comparison and review the live hybrid museum |
 
 ## Future Considerations
 
 - optional checklist for mobile/browser-specific review
 - room-by-room visual regression checklist
+- comparison-review checklist for prototype-vs-live design decisions

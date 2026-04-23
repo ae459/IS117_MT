@@ -10,98 +10,116 @@
     <div class="site-shell">
       <header class="site-header">
         <div class="site-header__inner">
-          <a class="site-brand" href="home.html">
+          <a class="site-brand" href="#opening">
             <span class="site-brand__eyebrow">Marvel Comic Exhibition</span>
             <span class="site-brand__title">Comic Book Museum</span>
           </a>
-          <nav class="site-nav" aria-label="Primary navigation">
-            <a class="nav-link" href="home.html">Opening gallery</a>
-            <a class="nav-link" href="eras/golden-age.html">Chronology</a>
-            <a class="nav-link" href="reading-maps/publication-lineage.html"
-              >Publication lineage</a
+          <div class="site-directory">
+            <p class="site-directory__label">Exhibit map</p>
+            <nav
+              class="site-nav site-nav--rooms"
+              aria-label="Primary exhibit map"
             >
-            <a class="nav-link" href="people-and-studios.html"
-              >People &amp; studios</a
-            >
-            <a class="nav-link" href="guides/collection-highlights.html"
-              >Object gallery</a
-            >
-          </nav>
+              <a class="room-tab room-tab--hero" href="index.html">
+                <span class="room-tab__eyebrow">Entry</span>
+                <span class="room-tab__title">Hero</span>
+              </a>
+              <a class="room-tab" href="#opening" aria-current="page">
+                <span class="room-tab__eyebrow">Threshold</span>
+                <span class="room-tab__title">Opening hall</span>
+              </a>
+              <a class="room-tab" href="eras/golden-age.html">
+                <span class="room-tab__eyebrow">Room 1</span>
+                <span class="room-tab__title">Golden Age</span>
+              </a>
+              <a class="room-tab" href="eras/marvel-age.html">
+                <span class="room-tab__eyebrow">Room 2</span>
+                <span class="room-tab__title">Marvel Age</span>
+              </a>
+              <a class="room-tab" href="eras/cinematic-age.html">
+                <span class="room-tab__eyebrow">Room 3</span>
+                <span class="room-tab__title">Cinematic Age</span>
+              </a>
+            </nav>
+          </div>
         </div>
-        <div class="site-header__subnav">
-          <a class="nav-chip" href="#opening">Opening</a>
-          <a class="nav-chip" href="#chronology">Route</a>
-          <a class="nav-chip" href="#objects">Collection</a>
-          <a class="nav-chip" href="#highlights">Highlights</a>
+        <div class="site-header__subnav" aria-label="Companion rooms">
+          <a class="nav-chip" href="people-and-studios.html">
+            <span class="nav-chip__eyebrow">Cast</span>
+            <span class="nav-chip__title">People &amp; studios</span>
+          </a>
+          <a class="nav-chip" href="reading-maps/publication-lineage.html">
+            <span class="nav-chip__eyebrow">Proof</span>
+            <span class="nav-chip__title">Publication lineage</span>
+          </a>
+          <a class="nav-chip" href="guides/collection-highlights.html">
+            <span class="nav-chip__eyebrow">Wall</span>
+            <span class="nav-chip__title">Object gallery</span>
+          </a>
         </div>
       </header>
 
       <main class="site-main">
         <article class="hero-panel theme-home">
           <section id="opening" class="home-opening">
-            <p class="section-heading__eyebrow">Opening gallery</p>
-            <h1 class="home-opening__title">Marvel Comic Book Museum</h1>
-            <p class="home-opening__lede">
-              Marvel is presented here as an exhibition system: preserved
-              issues, creator portraits, and franchise objects organized as
-              museum evidence.
-            </p>
-            <div class="artifact-grid">
-              <article class="artifact-card">
-                <img
-                  src="media/marvel-comics-1.svg"
-                  alt="Illustrated museum display of Marvel Comics number 1 in a protective sleeve"
-                />
-                <h3 class="artifact-card__title">Opening object</h3>
-                <p class="artifact-card__label">Marvel Comics #1 · 1939</p>
-                <p class="content-card__description">
-                  The exhibition begins with the first issue shown as a
-                  preserved object in a case, not a geometric symbol.
+            <div class="home-opening__intro home-opening__intro--immersive">
+              <div class="home-opening__copy">
+                <p class="section-heading__eyebrow">Opening gallery</p>
+                <h1 class="home-opening__title">Marvel Comic Book Museum</h1>
+                <p class="home-opening__lede">
+                  A single-route exhibition of Marvel history told through
+                  threshold issues, creator portraits, editorial culture, and
+                  franchise objects staged as museum evidence.
                 </p>
-              </article>
-              <article class="artifact-card">
-                <img
-                  src="media/fantastic-four-1.svg"
-                  alt="Illustrated museum display of Fantastic Four number 1"
-                />
-                <h3 class="artifact-card__title">Reinvention object</h3>
-                <p class="artifact-card__label">Fantastic Four #1 · 1961</p>
-                <p class="content-card__description">
-                  This issue marks the shift to Marvel's connected universe and
-                  gets presented like a real artifact on display.
+                <p class="copy">
+                  Whether you're new to Marvel or curious about its history as
+                  cultural system, follow the route in order. Each room builds
+                  on the last. Companion galleries deepen specific themes
+                  without pulling you away from the main story.
                 </p>
-              </article>
-            </div>
-            <div class="image-strip">
-              <figure class="artifact-figure">
-                <img
-                  src="media/amazing-fantasy-15.svg"
-                  alt="Illustrated museum display of Amazing Fantasy number 15"
-                />
-                <figcaption>
-                  Breakthrough object · Spider-Man's debut displayed as a
-                  preserved issue.
-                </figcaption>
-              </figure>
-              <figure class="artifact-figure">
-                <img
-                  src="media/bullpen-desk.svg"
-                  alt="Illustrated editorial bullpen desk with pages and pencils"
-                />
-                <figcaption>
-                  Studio culture object · The desk where editorial voice takes
-                  material form.
-                </figcaption>
-              </figure>
-              <figure class="artifact-figure">
-                <img
-                  src="media/infinity-gauntlet.svg"
-                  alt="Illustrated Infinity Gauntlet displayed on a museum pedestal"
-                />
-                <figcaption>
-                  Scale object · Event storytelling becomes an exhibited prop.
-                </figcaption>
-              </figure>
+                <div class="opening-note">
+                  <p class="opening-note__label">Curatorial note</p>
+                  <p class="opening-note__body">
+                    The route stays chronology-first. Companion rooms deepen the
+                    story with faces, publications, and collection walls instead
+                    of interrupting it.
+                  </p>
+                </div>
+                <div class="button-row">
+                  <a class="button-link button-link--dark" href="#chronology"
+                    >Follow the route</a
+                  >
+                  <a class="button-link" href="#highlights"
+                    >See the object wall</a
+                  >
+                </div>
+              </div>
+              <div class="home-opening__stage">
+                <figure
+                  class="artifact-figure feature-object feature-object--primary"
+                >
+                  <img
+                    src="media/marvel-comics-1.jpeg"
+                    alt="Illustrated museum display of Marvel Comics number 1 in a protective sleeve"
+                  />
+                  <figcaption>
+                    Threshold object · Marvel Comics #1 opens the exhibition as
+                    the first preserved proof of Marvel's identity.
+                  </figcaption>
+                </figure>
+                <div class="floating-card floating-card--top">
+                  <p class="floating-card__label">Reinvention object</p>
+                  <figure class="artifact-figure">
+                    <img
+                      src="media/fantastic-four-1.jpeg"
+                      alt="Illustrated museum display of Fantastic Four number 1"
+                    />
+                    <figcaption>
+                      Fantastic Four #1 resets Marvel as a connected world.
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -113,7 +131,7 @@
               </h2>
             </div>
             <div class="content-grid home-feature-grid">
-              <a class="content-card" href="eras/golden-age.html">
+              <a class="content-card" href="#golden-age">
                 <p class="content-card__meta">1939–1950s</p>
                 <h3 class="content-card__title">Golden Age Origins</h3>
                 <p class="content-card__description">
@@ -125,7 +143,7 @@
                   Room 1 centers archival objects and founding creators.
                 </p>
               </a>
-              <a class="content-card" href="eras/marvel-age.html">
+              <a class="content-card" href="#marvel-age">
                 <p class="content-card__meta">1961–1970s</p>
                 <h3 class="content-card__title">Marvel Age Expansion</h3>
                 <p class="content-card__description">
@@ -136,7 +154,7 @@
                   Room 2 uses issues as the visible proof of reinvention.
                 </p>
               </a>
-              <a class="content-card" href="eras/cinematic-age.html">
+              <a class="content-card" href="#cinematic-age">
                 <p class="content-card__meta">1980s–Present</p>
                 <h3 class="content-card__title">Crossover and Cinematic Age</h3>
                 <p class="content-card__description">
@@ -150,103 +168,668 @@
             </div>
           </section>
 
-          <section id="objects" class="chapter-section">
+          <section
+            id="golden-age"
+            class="chapter-section room-band room-band--golden"
+          >
+            <div class="room-band__header">
+              <div class="section-heading">
+                <p class="section-heading__eyebrow">Room 1 · Foundation</p>
+                <h2 class="section-heading__title">Golden Age Origins</h2>
+              </div>
+              <p class="chapter-hero__period">1939–1950s</p>
+            </div>
+            <div class="room-band__hero">
+              <div class="room-band__copy">
+                <p class="chapter-section__body">
+                  The exhibition begins with Timely Comics, wartime iconography,
+                  and the moment Marvel first proves that costumed heroes can
+                  become mass culture.
+                </p>
+                <div class="dual-column">
+                  <div class="content-card">
+                    <h3 class="content-card__title">Curatorial claim</h3>
+                    <p class="content-card__description">
+                      Visitors meet the first issue as an origin artifact rather
+                      than a trivia answer.
+                    </p>
+                    <p class="content-card__footer">
+                      Captain America, Namor, and the Human Torch work here
+                      because they are already culturally legible to most
+                      visitors.
+                    </p>
+                  </div>
+                  <aside class="editorial-aside">
+                    <p class="editorial-aside__label">Scarcity</p>
+                    <h3 class="editorial-aside__title">
+                      The first issue is the threshold artifact.
+                    </h3>
+                    <div class="editorial-aside__body">
+                      Treat Marvel Comics #1 as a rare threshold object: not
+                      just early, but identity-forming.
+                    </div>
+                  </aside>
+                </div>
+              </div>
+              <figure class="artifact-figure room-band__object">
+                <img
+                  src="media/marvel-comics-1.jpeg"
+                  alt="Illustrated museum display of Marvel Comics number 1 in a protective sleeve"
+                />
+                <figcaption>
+                  Marvel Comics #1 · The opening-case object that gives the
+                  museum its first proof surface.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="content-grid">
+              <article class="content-card">
+                <p class="content-card__meta">1939 · Threshold issue</p>
+                <h3 class="content-card__title">Marvel Comics #1</h3>
+                <p class="content-card__description">
+                  The first issue established the publisher's early identity
+                  through Namor and the original Human Torch.
+                </p>
+                <p class="content-card__footer">
+                  Use it as the opening proof object for the Golden Age room.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">Creator cluster</p>
+                <h3 class="content-card__title">Goodman, Simon, and Kirby</h3>
+                <p class="content-card__description">
+                  The origin room centers publishing strategy, patriotism, and
+                  visual mythmaking as one system.
+                </p>
+                <p class="content-card__footer">
+                  The room should feel more like a founding case than a
+                  nostalgia collage.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section
+            id="marvel-age"
+            class="chapter-section room-band room-band--marvel"
+          >
+            <div class="room-band__header">
+              <div class="section-heading">
+                <p class="section-heading__eyebrow">Room 2 · Reinvention</p>
+                <h2 class="section-heading__title">Marvel Age Expansion</h2>
+              </div>
+              <p class="chapter-hero__period">1961–1970s</p>
+            </div>
+            <div class="room-band__hero">
+              <div class="room-band__copy">
+                <p class="chapter-section__body">
+                  This room treats the Silver Age as Marvel's decisive
+                  reinvention: a shared universe, flawed heroes, and creators
+                  who made personality part of the brand.
+                </p>
+                <div class="dual-column">
+                  <div class="content-card">
+                    <h3 class="content-card__title">What changes here</h3>
+                    <p class="content-card__description">
+                      The room emphasizes how relatability, ensemble
+                      storytelling, and creator voice became Marvel's real
+                      differentiators.
+                    </p>
+                    <p class="content-card__footer">
+                      Stan Lee, Jack Kirby, and Steve Ditko act as institutional
+                      proof that this era reshaped comics culture.
+                    </p>
+                  </div>
+                  <aside class="editorial-aside">
+                    <p class="editorial-aside__label">Liking</p>
+                    <h3 class="editorial-aside__title">
+                      Recognition is an entry point, not a shortcut.
+                    </h3>
+                    <div class="editorial-aside__body">
+                      Spider-Man, the Fantastic Four, and the Avengers help
+                      visitors enter quickly, but the room still explains why
+                      those icons changed the emotional vocabulary of superhero
+                      fiction.
+                    </div>
+                  </aside>
+                </div>
+              </div>
+              <div class="artifact-grid artifact-grid--stacked">
+                <figure class="artifact-figure">
+                  <img
+                    src="media/fantastic-four-1.jpeg"
+                    alt="Illustrated museum display of Fantastic Four number 1"
+                  />
+                  <figcaption>
+                    Fantastic Four #1 · The reset object that gives Marvel a
+                    connected world and a new tone.
+                  </figcaption>
+                </figure>
+                <figure class="artifact-figure">
+                  <img
+                    src="media/amazing-fantasy-15.jpeg"
+                    alt="Illustrated museum display of Amazing Fantasy number 15"
+                  />
+                  <figcaption>
+                    Amazing Fantasy #15 · The object that makes private anxiety
+                    and public heroism belong together.
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="content-grid">
+              <article class="content-card">
+                <p class="content-card__meta">
+                  1961 · Shared-universe ignition
+                </p>
+                <h3 class="content-card__title">Fantastic Four #1</h3>
+                <p class="content-card__description">
+                  This issue marks the tonal and structural reset that begins
+                  Marvel's modern voice.
+                </p>
+                <p class="content-card__footer">
+                  It is the cleanest artifact for showing reinvention rather
+                  than simple continuation.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">
+                  1962 · Relatability breakthrough
+                </p>
+                <h3 class="content-card__title">Amazing Fantasy #15</h3>
+                <p class="content-card__description">
+                  Spider-Man makes teenage anxiety, guilt, and urban life
+                  central to superhero storytelling.
+                </p>
+                <p class="content-card__footer">
+                  It proves why Marvel's heroes felt different from earlier
+                  archetypes.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">
+                  Writer-editor and public voice · Marvel Age
+                </p>
+                <h3 class="content-card__title">Stan Lee</h3>
+                <p class="content-card__description">
+                  Helped position Marvel as witty, self-aware, and emotionally
+                  human in the 1960s.
+                </p>
+                <p class="content-card__footer">
+                  He turns editorial voice into brand identity.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">
+                  Artist and storyteller · Marvel Age
+                </p>
+                <h3 class="content-card__title">Steve Ditko</h3>
+                <p class="content-card__description">
+                  Gave Spider-Man and Doctor Strange their defining visual and
+                  psychological tension.
+                </p>
+                <p class="content-card__footer">
+                  His work proves Marvel's reinvention was also a design
+                  breakthrough.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section
+            id="cinematic-age"
+            class="chapter-section room-band room-band--cinematic"
+          >
+            <div class="room-band__header">
+              <div class="section-heading">
+                <p class="section-heading__eyebrow">Room 3 · Scale</p>
+                <h2 class="section-heading__title">
+                  Crossover and Cinematic Age
+                </h2>
+              </div>
+              <p class="chapter-hero__period">1980s–Present</p>
+            </div>
+            <div class="room-band__hero">
+              <div class="room-band__copy">
+                <p class="chapter-section__body">
+                  The final room follows Marvel from darker prestige
+                  storytelling into crossover spectacle and the global film
+                  infrastructure of the MCU.
+                </p>
+                <div class="dual-column">
+                  <div class="content-card">
+                    <h3 class="content-card__title">What the room proves</h3>
+                    <p class="content-card__description">
+                      This room presents crossover events and the MCU as an
+                      exhibit about scale, not just popularity.
+                    </p>
+                    <p class="content-card__footer">
+                      Chris Claremont, Frank Miller, Kevin Feige, and the
+                      Avengers brand prove Marvel's reach across media and
+                      generations.
+                    </p>
+                  </div>
+                  <aside class="editorial-aside">
+                    <p class="editorial-aside__label">Scarcity</p>
+                    <h3 class="editorial-aside__title">
+                      Threshold moments still need ranking.
+                    </h3>
+                    <div class="editorial-aside__body">
+                      Use Secret Wars, Infinity Gauntlet, and Iron Man as
+                      threshold artifacts that mark irreversible expansion.
+                    </div>
+                  </aside>
+                </div>
+              </div>
+              <figure class="artifact-figure room-band__object">
+                <img
+                  src="media/mcu-prop-wall.jpeg"
+                  alt="Illustrated museum prop wall of cinematic helmets and armor"
+                />
+                <figcaption>
+                  MCU prop wall · The point where comic continuity becomes a
+                  museum of repeatable cinematic symbols.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="content-grid">
+              <article class="content-card">
+                <p class="content-card__meta">1984–2008 · Scale trilogy</p>
+                <h3 class="content-card__title">
+                  Secret Wars / Infinity Gauntlet / Iron Man
+                </h3>
+                <p class="content-card__description">
+                  Together these works show Marvel moving from event comics to
+                  global cinematic infrastructure.
+                </p>
+                <p class="content-card__footer">
+                  They let the final room argue for scale as the modern Marvel
+                  signature.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">Institutional cast</p>
+                <h3 class="content-card__title">
+                  From writer prestige to franchise architecture
+                </h3>
+                <p class="content-card__description">
+                  Claremont deepens long-form emotional stakes while Feige
+                  converts continuity into a release strategy.
+                </p>
+                <p class="content-card__footer">
+                  The exhibit ends by showing how serial logic becomes industry
+                  logic.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section id="people" class="chapter-section">
             <div class="section-heading">
-              <p class="section-heading__eyebrow">Collection rooms</p>
+              <p class="section-heading__eyebrow">
+                Companion room · People and studios
+              </p>
               <h2 class="section-heading__title">
-                Companion rooms expand the exhibition with pictures and
-                evidence.
+                Put faces and institutions beside the objects.
               </h2>
             </div>
-            <div class="content-grid home-feature-grid">
-              <a
-                class="content-card"
-                href="reading-maps/publication-lineage.html"
-              >
-                <p class="content-card__meta">Evidence room</p>
-                <h3 class="content-card__title">Publication lineage</h3>
-                <p class="content-card__description">
-                  Follow the issues that change Marvel's identity, now shown as
-                  preserved objects instead of abstract graphic markers.
-                </p>
-                <p class="content-card__footer">
-                  The lineage page works like a compact object-study room.
-                </p>
-              </a>
-              <a class="content-card" href="people-and-studios.html">
-                <p class="content-card__meta">Cast room</p>
-                <h3 class="content-card__title">People &amp; studios</h3>
-                <p class="content-card__description">
-                  Meet publishers, artists, writers, and studio architects
-                  through portrait-style cards and production objects.
-                </p>
-                <p class="content-card__footer">
-                  This room gives faces to the exhibition argument.
-                </p>
-              </a>
-              <a class="content-card" href="guides/collection-highlights.html">
-                <p class="content-card__meta">Gallery room</p>
-                <h3 class="content-card__title">Collection highlights</h3>
-                <p class="content-card__description">
-                  See the strongest covers, editorial artifacts, and cinematic
-                  hardware together in a concentrated display wall.
-                </p>
-                <p class="content-card__footer">
-                  This page is the museum's picture-heavy highlight gallery.
-                </p>
-              </a>
+            <p class="chapter-section__body">
+              This section grounds the exhibition in creators, publishers, and
+              studio systems so Marvel does not feel like a sequence of
+              anonymous icons.
+            </p>
+            <div class="portrait-grid">
+              <figure class="artifact-figure">
+                <img
+                  src="media/martin-goodman.jpeg"
+                  alt="Illustrated portrait card for Martin Goodman"
+                />
+                <figcaption>
+                  Publisher portrait · Martin Goodman as the founding business
+                  figure.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/jack-kirby.jpeg"
+                  alt="Illustrated portrait card for Jack Kirby"
+                />
+                <figcaption>
+                  Creator portrait · Jack Kirby as visual architect and
+                  myth-maker.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/stan-lee.jpeg"
+                  alt="Illustrated portrait card for Stan Lee"
+                />
+                <figcaption>
+                  Voice portrait · Stan Lee as editorial personality and public
+                  face.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/steve-ditko.jpeg"
+                  alt="Illustrated portrait card for Steve Ditko"
+                />
+                <figcaption>
+                  Design portrait · Steve Ditko as psychological and visual
+                  innovator.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/chris-claremont.jpeg"
+                  alt="Illustrated portrait card for Chris Claremont"
+                />
+                <figcaption>
+                  Serial portrait · Chris Claremont as the architect of
+                  long-form depth.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/kevin-feige.jpeg"
+                  alt="Illustrated portrait card for Kevin Feige"
+                />
+                <figcaption>
+                  Studio portrait · Kevin Feige as continuity planner at
+                  franchise scale.
+                </figcaption>
+              </figure>
             </div>
+            <div class="content-grid home-feature-grid">
+              <article class="content-card">
+                <p class="content-card__meta">Publisher · Golden Age</p>
+                <h3 class="content-card__title">Martin Goodman</h3>
+                <p class="content-card__description">
+                  Founded Timely Comics and created the commercial conditions
+                  for Marvel's earliest identity.
+                </p>
+                <p class="content-card__footer">
+                  He turns pulp opportunity into a platform for later
+                  mythmaking.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">Artist and co-architect</p>
+                <h3 class="content-card__title">Jack Kirby</h3>
+                <p class="content-card__description">
+                  Co-created Captain America, the Fantastic Four, the X-Men, and
+                  much of Marvel's visual language.
+                </p>
+                <p class="content-card__footer">
+                  Kirby is exhibit-level proof that style and mythmaking are
+                  inseparable.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">Writer-editor and public voice</p>
+                <h3 class="content-card__title">Stan Lee</h3>
+                <p class="content-card__description">
+                  Helped position Marvel as witty, self-aware, and emotionally
+                  human in the 1960s.
+                </p>
+                <p class="content-card__footer">
+                  He embodies social proof by turning editorial voice into brand
+                  identity.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">Artist and storyteller</p>
+                <h3 class="content-card__title">Steve Ditko</h3>
+                <p class="content-card__description">
+                  Gave Spider-Man and Doctor Strange their defining visual and
+                  psychological tension.
+                </p>
+                <p class="content-card__footer">
+                  Ditko helps the site argue that Marvel's breakthrough was also
+                  a design breakthrough.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">Writer · Cinematic Age</p>
+                <h3 class="content-card__title">Chris Claremont</h3>
+                <p class="content-card__description">
+                  Expanded the X-Men into a long-form emotional and political
+                  saga.
+                </p>
+                <p class="content-card__footer">
+                  He proves that Marvel's modern identity depends on serial
+                  depth, not just icons.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">Studio architect · MCU</p>
+                <h3 class="content-card__title">Kevin Feige</h3>
+                <p class="content-card__description">
+                  Oversaw the MCU as a connected franchise system built from
+                  comics logic.
+                </p>
+                <p class="content-card__footer">
+                  He turns adaptation into institutional scale.
+                </p>
+              </article>
+            </div>
+            <div class="content-grid">
+              <article class="content-card">
+                <p class="content-card__meta">Publishing origin · Golden Age</p>
+                <h3 class="content-card__title">Timely Comics</h3>
+                <p class="content-card__description">
+                  Marvel begins here as a pulp-era publisher shaped by wartime
+                  readership and fast-moving print economics.
+                </p>
+                <p class="content-card__footer">
+                  This is the exhibit's origin institution.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">Franchise-scale institution</p>
+                <h3 class="content-card__title">Marvel Studios</h3>
+                <p class="content-card__description">
+                  Marvel Studios converts serialized comics logic into
+                  blockbuster cinematic release strategy.
+                </p>
+                <p class="content-card__footer">
+                  It turns continuity into industrial scale.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section id="lineage" class="chapter-section">
+            <div class="section-heading">
+              <p class="section-heading__eyebrow">
+                Companion room · Publication lineage
+              </p>
+              <h2 class="section-heading__title">
+                Key issues and release moments sharpen the proof.
+              </h2>
+            </div>
+            <p class="chapter-section__body">
+              The reading map works as a sequence of proof objects: each issue
+              matters because it changes what Marvel can become next.
+            </p>
+            <div class="artifact-grid artifact-grid--quad">
+              <figure class="artifact-figure">
+                <img
+                  src="media/marvel-comics-1.jpeg"
+                  alt="Illustrated museum display of Marvel Comics number 1"
+                />
+                <figcaption>
+                  Opening-room proof object · The first issue anchors the
+                  museum's starting case.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/fantastic-four-1.jpeg"
+                  alt="Illustrated museum display of Fantastic Four number 1"
+                />
+                <figcaption>
+                  Reinvention proof object · The issue that makes Marvel's
+                  shared universe visible.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/amazing-fantasy-15.jpeg"
+                  alt="Illustrated museum display of Amazing Fantasy number 15"
+                />
+                <figcaption>
+                  Relatability proof object · Spider-Man's debut reframes the
+                  emotional scale of Marvel.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/infinity-gauntlet.jpeg"
+                  alt="Illustrated Infinity Gauntlet displayed on a museum pedestal"
+                />
+                <figcaption>
+                  Scale proof object · The event artifact that turns spectacle
+                  into a visible museum object.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="content-grid home-feature-grid">
+              <article class="content-card">
+                <p class="content-card__meta">1939 · Threshold issue</p>
+                <h3 class="content-card__title">Marvel Comics #1</h3>
+                <p class="content-card__description">
+                  The first issue established the publisher's early identity
+                  through Namor and the original Human Torch.
+                </p>
+                <p class="content-card__footer">
+                  Use it as the opening proof object for the Golden Age room.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">
+                  1961 · Shared-universe ignition
+                </p>
+                <h3 class="content-card__title">Fantastic Four #1</h3>
+                <p class="content-card__description">
+                  This issue marks the tonal and structural reset that begins
+                  Marvel's modern voice.
+                </p>
+                <p class="content-card__footer">
+                  It is the cleanest artifact for showing reinvention rather
+                  than simple continuation.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">
+                  1962 · Relatability breakthrough
+                </p>
+                <h3 class="content-card__title">Amazing Fantasy #15</h3>
+                <p class="content-card__description">
+                  Spider-Man makes teenage anxiety, guilt, and urban life
+                  central to superhero storytelling.
+                </p>
+                <p class="content-card__footer">
+                  It proves why Marvel's heroes felt different from earlier
+                  archetypes.
+                </p>
+              </article>
+              <article class="content-card">
+                <p class="content-card__meta">1984–2008 · Scale trilogy</p>
+                <h3 class="content-card__title">
+                  Secret Wars / Infinity Gauntlet / Iron Man
+                </h3>
+                <p class="content-card__description">
+                  Together these works show Marvel moving from event comics to
+                  global cinematic infrastructure.
+                </p>
+                <p class="content-card__footer">
+                  They let the final room argue for scale as the modern Marvel
+                  signature.
+                </p>
+              </article>
+            </div>
+            <aside class="editorial-aside">
+              <p class="editorial-aside__label">Social proof</p>
+              <h3 class="editorial-aside__title">
+                Fame helps the visitor enter; interpretation keeps them
+                learning.
+              </h3>
+              <div class="editorial-aside__body">
+                The site uses well-known issues because visitors recognize them,
+                but each one is framed as evidence for a shift in tone, scale,
+                or institutional power.
+              </div>
+            </aside>
           </section>
 
           <section id="highlights" class="chapter-section">
             <div class="section-heading">
-              <p class="section-heading__eyebrow">Collection highlights</p>
+              <p class="section-heading__eyebrow">
+                Gallery room · Collection highlights
+              </p>
               <h2 class="section-heading__title">
-                The site shows what it argues for.
+                Objects that make Marvel visible.
               </h2>
             </div>
-            <div class="artifact-grid">
-              <article class="artifact-card">
+            <div class="highlight-mosaic">
+              <figure class="artifact-figure artifact-figure--feature-panel">
                 <img
-                  src="media/mcu-helmets.svg"
+                  src="media/mcu-prop-wall.jpeg"
                   alt="Illustrated museum prop wall of cinematic helmets and armor"
                 />
-                <h3 class="artifact-card__title">Cinematic hardware</h3>
-                <p class="artifact-card__label">Prop wall · MCU era</p>
-                <p class="content-card__description">
-                  The modern Marvel room now includes vitrines and hardware
-                  instead of abstract circles and triangles.
-                </p>
-              </article>
-              <article class="artifact-card">
+                <figcaption>
+                  MCU prop wall · Comic continuity becomes a repeatable gallery
+                  of cinematic symbols, props, and branded memory.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
                 <img
-                  src="media/bullpen-desk.svg"
-                  alt="Illustrated editorial bullpen desk with pinned layouts, lamp, and coffee"
+                  src="media/bullpen-desk.jpeg"
+                  alt="Illustrated editorial bullpen desk with pages and lamp"
                 />
-                <h3 class="artifact-card__title">Editorial culture</h3>
-                <p class="artifact-card__label">
-                  Desk object · Marvel office life
-                </p>
-                <p class="content-card__description">
-                  Production culture is shown as a physical workspace with
-                  pages, tools, and layout sketches.
-                </p>
-              </article>
+                <figcaption>
+                  Bullpen desk · A stand-in for the editorial room where creator
+                  personality became part of the Marvel product.
+                </figcaption>
+              </figure>
+              <figure class="artifact-figure">
+                <img
+                  src="media/infinity-gauntlet.jpeg"
+                  alt="Illustrated Infinity Gauntlet displayed on a museum pedestal"
+                />
+                <figcaption>
+                  Infinity Gauntlet · The crossover object that makes Marvel's
+                  taste for scale impossible to ignore.
+                </figcaption>
+              </figure>
             </div>
+            <aside class="editorial-aside">
+              <p class="editorial-aside__label">Curatorial note</p>
+              <h3 class="editorial-aside__title">
+                Objects should carry the argument.
+              </h3>
+              <div class="editorial-aside__body">
+                Covers, desks, and props give visitors something to compare,
+                remember, and interpret. They do that work better than a page
+                full of process explanation.
+              </div>
+            </aside>
           </section>
 
           <section class="transition-block">
             <p class="transition-block__eyebrow">Continue</p>
-            <h2 class="transition-block__title">Start with the origin room.</h2>
+            <h2 class="transition-block__title">
+              Return to the threshold and follow the route again.
+            </h2>
             <p class="transition-block__copy">
-              Begin in the Golden Age gallery, where the first issue and the
-              earliest publisher artifacts establish the museum's foundation.
+              The chronology gives the spine, the lineage room sharpens the
+              proof, and the collection wall leaves the objects visible in
+              memory.
             </p>
             <div class="button-row">
-              <a
-                class="button-link button-link--dark"
-                href="eras/golden-age.html"
-                >Enter Room 1</a
+              <a class="button-link button-link--dark" href="#opening"
+                >Back to top</a
               >
             </div>
           </section>
@@ -260,24 +843,22 @@
             Follow the objects through the whole exhibit.
           </h2>
           <p class="site-footer__copy">
-            The chronology gives the route, the lineage page sharpens the
+            The chronology gives the route, the lineage room sharpens the
             evidence, and the people room adds the faces and institutions behind
             the objects.
           </p>
         </div>
         <nav class="site-footer__links" aria-label="Footer quick links">
-          <a class="site-footer__link" href="eras/golden-age.html"
+          <a class="site-footer__link" href="#golden-age"
             >Start with the Golden Age</a
           >
-          <a
-            class="site-footer__link"
-            href="reading-maps/publication-lineage.html"
+          <a class="site-footer__link" href="#lineage"
             >Trace publication lineage</a
           >
-          <a class="site-footer__link" href="people-and-studios.html"
+          <a class="site-footer__link" href="#people"
             >Meet creators and studios</a
           >
-          <a class="site-footer__link" href="guides/collection-highlights.html"
+          <a class="site-footer__link" href="#highlights"
             >Enter the object gallery</a
           >
         </nav>

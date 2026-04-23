@@ -365,13 +365,394 @@ This file is a reconstructed record of the major prompts used in this workspace 
 
 - The entry page now presents the comic covers against a darker, more dramatic space-like field.
 
+---
+
+### 21. Review web design archetypes and compare the museum against them
+
+**Prompt:** explain the general archetypes for web design, identify famous designers associated with them, compare the museum design against those archetypes, and review the site as if it were being critiqued through a Khoi Vinh-style lens.
+
+**What happened:**
+
+- General web design archetypes were outlined, including landing, editorial, portfolio, e-commerce, dashboard, documentation, and museum/exhibition models.
+- The museum was compared against notable web-design figures, with the strongest fit identified as a systems-first, grid-based editorial approach rather than an experimental or portfolio-driven one.
+- A targeted critique was produced describing what to refine: more restrained hierarchy, stronger grid discipline, standardized cards, simplified navigation, tighter type rhythm, and better alignment between the entry page and the main opening gallery.
+
+**Outcome:**
+
+- The museum was more clearly framed as a curated editorial/exhibition system rather than a flashy experimental website.
+- The critique directly informed the next implementation pass.
+
+---
+
+### 22. Apply a first-pass archetype-driven design refinement to the live site
+
+**Prompt:** start applying the design changes first so the results could be reviewed before any further documentation updates.
+
+**What happened:**
+
+- The entry page and homepage were refined to feel more restrained and museum-like.
+- Shared CSS was updated to tighten typography, spacing, card consistency, and overall visual hierarchy.
+- The opening sequence was strengthened with a calmer threshold page and a cleaner homepage structure.
+
+**Outcome:**
+
+- The live museum gained a more deliberate first-pass visual system aligned with the earlier archetype critique.
+
+**Key files updated:**
+
+- `docs/index.html`
+- `docs/home.html`
+- `docs/styles.css`
+
+---
+
+### 23. Confirm the design direction and propagate approved system changes site-wide
+
+**Prompt:** confirm the direction, then extend the approved changes across the museum and update the necessary files afterward.
+
+**What happened:**
+
+- Shared brand wording and internal route logic were propagated across the active museum pages.
+- Internal `Opening gallery` navigation was standardized to point to `docs/home.html` as the real opening-gallery surface.
+- Companion pages were aligned with the approved object-gallery route and the active guide page naming.
+- The visual QA sprint record was updated to reflect completed review items and touched paths.
+
+**Outcome:**
+
+- The museum became more internally consistent across chronology pages, companion rooms, and route labels.
+
+**Key files updated:**
+
+- `docs/home.html`
+- `docs/people-and-studios.html`
+- `docs/eras/golden-age.html`
+- `docs/eras/marvel-age.html`
+- `docs/eras/cinematic-age.html`
+- `docs/reading-maps/publication-lineage.html`
+- `docs/guides/bauhaus-marvel-language.html`
+- `docs/_specs/visual-qa/sprints/sprint-2-full-site-visual-review.md`
+
+---
+
+### 24. Commit design work and correct Git identity
+
+**Prompt:** commit and push the recent changes, then set the Git username/email and amend the latest commit so the new identity is used.
+
+**What happened:**
+
+- Recent museum changes were committed and pushed to `main`.
+- Global Git identity was updated to use the provided NJIT email and username.
+- The latest commit was amended with `--reset-author` and force-pushed safely with `--force-with-lease`.
+
+**Outcome:**
+
+- The repository history now reflects the intended Git identity for later commits.
+
+---
+
+### 25. Make another focused live-site refinement pass
+
+**Prompt:** fix the design a little more for the website.
+
+**What happened:**
+
+- The live entry page and homepage received another small visual pass focused on first-impression clarity.
+- A stronger opening orientation was added with supporting note blocks and signpost cards.
+- Shared styling was adjusted to improve hero rhythm, header presence, and museum-style framing.
+
+**Outcome:**
+
+- The live opening experience became clearer and more curated without changing the overall site structure.
+
+**Key files updated:**
+
+- `docs/index.html`
+- `docs/home.html`
+- `docs/styles.css`
+
+---
+
+### 26. Create isolated placeholder examples outside the live museum
+
+**Prompt:** use placeholders only and put everything in a folder named `Example` so layout experiments can be deleted later without affecting the museum site.
+
+**What happened:**
+
+- An isolated `Example/` folder was created.
+- A first demo page was added to show a comic-inspired layout using only framed placeholders and card systems.
+- A second demo page was then created to mirror the museum homepage structure more closely while still using placeholder content.
+
+**Outcome:**
+
+- The repo gained a safe prototyping space separate from the live museum implementation.
+
+**Key files added:**
+
+- `Example/index.html`
+- `Example/styles.css`
+- `Example/museum-layout.html`
+- `Example/museum-layout.css`
+
+---
+
+### 27. Review and redesign the isolated museum example through a more immersive lens
+
+**Prompt:** compare the `museum-layout` example as if reviewed by designers like Bruno Simon or Daniel Spatzek, then proceed with a more immersive design pass while keeping all work inside the example files only.
+
+**What happened:**
+
+- The example prototype was critiqued as being strong in structure but less theatrical and experience-driven than those designers' work.
+- The isolated museum-layout preview was redesigned with a more dominant hero object, layered floating inset cards, stronger asymmetry, a route-band gesture, and a more dramatic highlight mosaic.
+- The changes remained fully sandboxed in the `Example/` folder and did not alter the live museum site.
+
+**Outcome:**
+
+- The repository now includes a stronger prototype for experimenting with bolder homepage treatments before transferring any ideas to the real museum.
+
+**Key files updated:**
+
+- `Example/museum-layout.html`
+- `Example/museum-layout.css`
+
+---
+
+### 28. Compare the live museum against the `museum-layout` prototype
+
+**Prompt:** compare and review the museum design with the `museum-layout.html` and CSS example in the `Example` folder, and read the prompt log session history.
+
+**What happened:**
+
+- The update log and both the example prototype and live museum files were reviewed together.
+- The live museum was judged stronger as a curatorial exhibition system, while the example prototype was judged stronger as a single-page immersive homepage concept.
+- A hybrid direction was identified: borrow scale contrast, asymmetry, and route gestures from the prototype while preserving the museum's chronology-first logic, object evidence, and interpretive writing.
+
+**Outcome:**
+
+- The repository gained a documented basis for merging the prototype's spatial energy into the live museum without discarding the curator-facing exhibition model.
+
+---
+
+### 29. Redefine the live structure as hero page plus one single-page exhibition
+
+**Prompt:** preserve the separate hero page but turn everything else into a single page.
+
+**What happened:**
+
+- The design decision was clarified so `docs/index.html` would remain the only separate threshold page.
+- `docs/home.html` was selected as the main single-page museum route containing the opening gallery, chronology, companion rooms, lineage, and collection highlights.
+- Existing room pages were retained as reference/fallback surfaces rather than the primary route.
+
+**Outcome:**
+
+- The live museum's structure shifted from multi-page primary navigation to a hero-entry page plus a single long-form exhibition page.
+
+---
+
+### 30. Implement the live hybrid redesign
+
+**Prompt:** proceed with the redesign.
+
+**What happened:**
+
+- `docs/home.html` was rebuilt into a single-page exhibition route with anchored room sections.
+- `docs/styles.css` was extended with a more immersive opening stage, route band, room-band treatments, and highlight mosaic logic.
+- `docs/index.html` was updated so the threshold page still leads visitors into the new single-page route.
+
+**Outcome:**
+
+- The live site adopted the approved hybrid model: a separate threshold page plus a single curator-led museum route.
+
+**Key files updated:**
+
+- `docs/home.html`
+- `docs/index.html`
+- `docs/styles.css`
+
+---
+
+### 31. Perform a spacing and visibility QA pass on the live museum
+
+**Prompt:** review the live museum site and make sure the spacing is proper, all words remain visible, and nothing overlaps.
+
+**What happened:**
+
+- Shared CSS rules were tightened for text wrapping, grid item min-width behavior, sticky-header anchor offsets, and medium-width layout collapse.
+- The live museum's opening gallery, gallery walls, and companion pages were reviewed for cramped spacing and title/caption fit.
+- A second pass specifically targeted opening-gallery and collection-wall spacing.
+
+**Outcome:**
+
+- The live museum became more resilient against overflow, hidden section titles, cramped captions, and medium-width layout failures.
+
+**Key files updated:**
+
+- `docs/styles.css`
+
+---
+
+### 32. Fix visible overlap in the opening gallery and wall presentation
+
+**Prompt:** address the visible overlap where wording was colliding with pictures on the opening and wall pages.
+
+**What happened:**
+
+- The opening-gallery feature-object caption was separated more clearly from the hero object stack.
+- Floating-card sizing and positioning were revised so supporting evidence no longer collided with the main object label.
+- Highlight and gallery-wall figures were given stronger framed-card behavior so captions stayed below imagery instead of collapsing into it.
+
+**Outcome:**
+
+- The live opening and collection-wall sections no longer exhibited the same caption/image overlap seen in browser screenshots.
+
+**Key files updated:**
+
+- `docs/styles.css`
+
+---
+
+### 33. Remove the extra opening-gallery logic card and do a targeted cleanup pass
+
+**Prompt:** remove the small `Exhibit logic` card in the opening gallery and proceed with a very targeted pass.
+
+**What happened:**
+
+- The unnecessary lower floating card was removed from the opening gallery in `docs/home.html`.
+- The opening hero was simplified so the main threshold object and the single supporting inset card read more clearly.
+- Gallery-wall presentation styles were refined so collection objects felt more like framed museum surfaces.
+
+**Outcome:**
+
+- The opening gallery became cleaner and the object wall gained a more controlled museum-display feel.
+
+**Key files updated:**
+
+- `docs/home.html`
+- `docs/styles.css`
+
+---
+
+### 34. Replace placeholder exhibit art with real local image assets
+
+**Prompt:** use actual pictures for people, comic issues, and the prop wall, then test them in the live museum.
+
+**What happened:**
+
+- A concrete image shopping list was derived from the live pages so portraits, cover objects, and prop-wall imagery could be sourced deliberately.
+- Real JPEG assets for key covers, portraits, and exhibit objects were added under `docs/media/` using normalized filenames.
+- The active museum pages were updated to use those real local assets in place of the earlier placeholder SVG object surfaces.
+
+**Outcome:**
+
+- The live museum now presents real comic-cover, portrait, and prop imagery on its main object surfaces instead of relying on placeholder illustrations.
+
+**Key files updated:**
+
+- `docs/home.html`
+- `docs/people-and-studios.html`
+- `docs/reading-maps/publication-lineage.html`
+- `docs/guides/collection-highlights.html`
+- `docs/eras/golden-age.html`
+- `docs/eras/marvel-age.html`
+- `docs/eras/cinematic-age.html`
+- `docs/media/*.jpeg`
+
+---
+
+### 35. Refine the live opening route after project-progress feedback
+
+**Prompt:** continue refining the live museum by removing redundant opening sections, reducing the oversized header, and tightening the closing CTA behavior.
+
+**What happened:**
+
+- The oversized top header was reduced so the exhibit title and route controls felt less dominant.
+- A redundant homepage signpost / route-intro section was removed so the opening gallery moved more directly into the chronology spine.
+- The closing transition block was simplified so it kept only the useful `Back to top` action.
+
+**Outcome:**
+
+- The opening route became cleaner and more museum-like, with less explanatory clutter between the threshold object and the main chronology.
+
+**Key files updated:**
+
+- `docs/home.html`
+- `docs/styles.css`
+
+---
+
+### 36. Prototype and adopt a hybrid exhibit-map navigation system
+
+**Prompt:** explore a hybrid navigation pattern based on the example layout and then transfer the approved direction into the live museum.
+
+**What happened:**
+
+- An isolated prototype in `Example/museum-layout.html` tested visible desktop route tabs with a compact mobile treatment.
+- The live museum first adopted the prototype's exhibit-map tabs, then was simplified again so the main chronology spine kept four large route tabs while companion rooms moved into a smaller secondary strip.
+- Additional framing and border work separated the primary route tray from the companion-room row.
+
+**Outcome:**
+
+- The live header now reflects the example's stronger hierarchy: a primary chronology-led route and a distinct supporting-room band.
+
+**Key files updated:**
+
+- `Example/museum-layout.html`
+- `Example/museum-layout.css`
+- `docs/home.html`
+- `docs/people-and-studios.html`
+- `docs/reading-maps/publication-lineage.html`
+- `docs/guides/collection-highlights.html`
+- `docs/eras/golden-age.html`
+- `docs/eras/marvel-age.html`
+- `docs/eras/cinematic-age.html`
+- `docs/guides/bauhaus-marvel-language.html`
+- `docs/styles.css`
+
+---
+
+### 37. Preserve the reinvention inset card as a layered mobile object
+
+**Prompt:** keep the `Reinvention object` visually staged over the threshold cover in the mobile layout instead of letting it collapse into a flat stacked card.
+
+**What happened:**
+
+- Responsive CSS for the opening gallery was revised so the inset `Fantastic Four #1` card remained absolutely positioned over the `Marvel Comics #1` object on smaller screens.
+- Follow-up browser checks led to stronger mobile selectors and a larger inward offset so the inset card clearly overlaps the main cover rather than sitting beside it.
+
+**Outcome:**
+
+- The opening gallery now preserves more of its exhibit-style layering on smaller screens instead of flattening the supporting object into the normal document flow.
+
+**Key files updated:**
+
+- `docs/styles.css`
+
+---
+
+### 38. Prune the media folder to active exhibit assets only
+
+**Prompt:** clean the media folder and remove pictures or SVGs that are no longer used.
+
+**What happened:**
+
+- The `docs/media/` directory was compared against all current references in the live `docs/` HTML and CSS.
+- Duplicate source JPEGs, old placeholder SVGs, and other unreferenced media files were removed.
+
+**Outcome:**
+
+- `docs/media/` now contains only assets still referenced by the live museum implementation.
+
+**Key files updated:**
+
+- `docs/media/`
+
 ## Current Repository State
 
 At the end of this log, the repository is organized around these active areas:
 
 - `docs/` — live museum and all supporting documentation
 - `docs/index.html` — public hero-entry page
-- `docs/home.html` — main opening-gallery homepage
+- `docs/home.html` — main single-page exhibition route after the hero entry
+- `Example/` — isolated placeholder and prototype layouts for design experiments
 - `README.md` — project overview and publishing guidance
 - `AGENTS.md` — standing agent instructions for future work
 - `PROMPT_LOG.md` — reconstructed session history
@@ -381,5 +762,5 @@ At the end of this log, the repository is organized around these active areas:
 - GitHub Pages branch: `main`
 - GitHub Pages folder: `/docs`
 - Public entry point: `docs/index.html`
-- Opening-gallery homepage: `docs/home.html`
+- Main museum route: `docs/home.html`
 - Required Pages support file: `docs/.nojekyll`

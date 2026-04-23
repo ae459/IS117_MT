@@ -63,3 +63,5 @@ Define how this static museum should be checked and maintained across future ses
 - URL: repository paths to the updated workflow guidance
 - Screenshots: optional capture of README and sprint guidance in markdown preview
 - PR / commit: link or commit hash when the sprint is implemented
+- Follow-on QA evidence: later browser-review sessions validated media references, header hierarchy revisions, companion-room separation, and responsive opening-gallery staging inside the live `docs/` museum
+- Follow-on repository evidence: `docs/styles.css`, `docs/home.html`, and the active `docs/media/` inventory were iteratively checked against live preview behavior during the progress review

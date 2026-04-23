@@ -52,3 +52,5 @@ Review the full exhibition for continuity after component-level alignment work.
 - URL: `docs/index.html`, `docs/home.html`, `docs/styles.css`, `docs/eras/golden-age.html`, `docs/eras/marvel-age.html`, `docs/eras/cinematic-age.html`, `docs/people-and-studios.html`, `docs/reading-maps/publication-lineage.html`, `docs/guides/bauhaus-marvel-language.html`
 - Screenshots: compare the threshold page, opening gallery, chronology rooms, people room, lineage room, and object gallery after the first-pass system refinements
 - PR / commit: pending repository commit
+- Follow-on review evidence: later project-progress feedback resulted in a reduced header, removal of a redundant opening signpost block, clearer primary-versus-companion navigation hierarchy, and a cleaner closing CTA treatment
+- Follow-on live evidence: real JPEG cover/portrait/object assets replaced placeholder media across the active pages while preserving route-level visual consistency

@@ -6,11 +6,11 @@ For the full method, read `docs/foundation/orchestration-method.md`.
 
 ## Workstreams
 
-| Workstream                                             | Status            | Sprints | What It Produces                                                                         |
-| ------------------------------------------------------ | ----------------- | ------: | ---------------------------------------------------------------------------------------- |
-| [site-exhibition](site-exhibition/spec.md)             | Active foundation |       4 | Curatorial thesis, room system, entry sequence, object surfaces, and QA baseline         |
-| [curatorial-enrichment](curatorial-enrichment/spec.md) | Planned           |       3 | Stronger collection model, cast logic, room enrichment, and evidence discipline          |
-| [visual-qa](visual-qa/spec.md)                         | Planned           |       3 | Card alignment standards, typography consistency, and full-site visual continuity review |
+| Workstream                                             | Status            | Sprints | What It Produces                                                                              |
+| ------------------------------------------------------ | ----------------- | ------: | --------------------------------------------------------------------------------------------- |
+| [site-exhibition](site-exhibition/spec.md)             | Active foundation |       4 | Curatorial thesis, room system, entry sequence, object surfaces, and QA baseline              |
+| [curatorial-enrichment](curatorial-enrichment/spec.md) | Planned           |       3 | Stronger collection model, cast logic, room enrichment, and evidence discipline               |
+| [visual-qa](visual-qa/spec.md)                         | Planned           |       4 | Card alignment standards, typography consistency, design-comparison review, and continuity QA |
 
 ## How To Read This Folder
 

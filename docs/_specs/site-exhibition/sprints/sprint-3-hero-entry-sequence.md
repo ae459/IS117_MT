@@ -79,3 +79,5 @@ Introduce a dedicated public entry page that behaves like a museum threshold bef
 - Repository paths: `README.md`, `AGENTS.md`, `CLAIMS.md`, `PROMPT_LOG.md`
 - Repository paths: `docs/_specs/site-exhibition/spec.md`, `docs/_specs/README.md`, `docs/_specs/site-exhibition/sprints/sprint-3-hero-entry-sequence.md`
 - Commit: `aa1245d` (`Created a Hero Page`)
+- Follow-on progress-session evidence: the opening gallery continued to be refined after live review so the threshold object remained the dominant entry artifact while the supporting reinvention object stayed layered at smaller widths
+- Follow-on live files: `docs/home.html`, `docs/styles.css`, `docs/media/marvel-comics-1.jpeg`, `docs/media/fantastic-four-1.jpeg`
