@@ -73,12 +73,13 @@ Object cards, labels, and captions may lose alignment if changes are made withou
 
 ## Sprint Plan
 
-| Sprint   | Goal                                                                            |
-| -------- | ------------------------------------------------------------------------------- |
-| Sprint 0 | Rebuild the durable curatorial and process foundation documents                 |
-| Sprint 1 | Define the room system, object model, and collection logic for future additions |
-| Sprint 2 | Establish QA habits and continuity rules for docs-based museum evolution        |
-| Sprint 3 | Introduce a hero-entry threshold and document the split between entry and home  |
+| Sprint   | Goal                                                                                                      |
+| -------- | --------------------------------------------------------------------------------------------------------- |
+| Sprint 0 | Rebuild the durable curatorial and process foundation documents                                           |
+| Sprint 1 | Define the room system, object model, and collection logic for future additions                           |
+| Sprint 2 | Establish QA habits and continuity rules for docs-based museum evolution                                  |
+| Sprint 3 | Introduce a hero-entry threshold and document the split between entry and home                            |
+| Sprint 4 | Strengthen visitor onboarding with audience signal, clear entry messaging, and persistent hero navigation |
 
 ## Future Considerations
 
@@ -87,3 +88,4 @@ Object cards, labels, and captions may lose alignment if changes are made withou
 - room-level checklists for future page expansion
 - accessibility-focused QA workstream
 - docs-folder deployment and publishing workflow
+- visitor feedback testing on entry flow and audience signal clarity
