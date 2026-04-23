@@ -1,19 +1,3 @@
-# Six-Step Framework Mapping: Reference System → Museum Implementation
-
-**Purpose:** This document maps the six-step build framework from the reference design system (https://kaw393939.github.io/designsystem/) to how the Marvel Comic Book Museum actually implements each step in its current site.
-
----
-
-## The Six Steps (Reference Framework)
-
-1. **Figure out who it is for** — Name the person, the problem, and what they should get right away
-2. **Pick the vibe** — Choose the overall vibe people should get first and make sure it fits the audience
-3. **Choose the look** — Pick a visual direction that matches the vibe instead of fighting it
-4. **Add proof people can trust** — Decide what evidence needs to show up near the main claim
-5. **Turn it into a page** — Turn the decisions into a page plan, audit notes, and a build brief
-6. **Put it live** — Publish the page, see what lands, and decide what to fix next
-
----
 
 ## Step 1: Figure Out Who It Is For
 
