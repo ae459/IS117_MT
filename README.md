@@ -1,6 +1,6 @@
 # Marvel Bauhaus Museum
 
-Museum Live Link: https://ae459.github.io/IS117_MT/
+**Live site:** [https://ae459.github.io/IS117_MT/](https://ae459.github.io/IS117_MT/)
 
 ## Project Overview
 
