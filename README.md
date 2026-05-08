@@ -1,5 +1,7 @@
 # Marvel Bauhaus Museum
 
+**Live site:** [https://ae459.github.io/IS117_MT/](https://ae459.github.io/IS117_MT/)
+
 Marvel Bauhaus Museum is a static HTML/CSS digital exhibition that presents Marvel history as a curated museum experience rather than a conventional fan site. The project combines Bauhaus-inspired visual order with comic-book subject matter, organizing the collection around chronology, artifacts, creators, studios, and publication lineage.
 
 ## Project Overview
@@ -93,15 +95,25 @@ The museum's brand posture blends two main archetypal roles:
 
 Together, these create a brand identity that is not just exciting, but authoritative and interpretive. The project is meant to feel like a place where Marvel is not only celebrated, but explained.
 
-## Persuasion Methods Used
+## Cialdini Persuasion Principles
 
-The exhibition relies on persuasive design methods in a restrained, educational way rather than a marketing-heavy way. The clearest methods used in the current project are:
+The exhibition applies principles from Robert Cialdini's influence framework in a restrained, educational way rather than a marketing-heavy way. The primary Cialdini principle is **Authority**, supported by secondary applications of Social Proof and Scarcity. Specifically:
 
 - **Authority** — the museum framing, curatorial voice, labeled rooms, and evidence surfaces make the site feel trustworthy and intentional
 - **Social proof** — key figures such as Stan Lee, Jack Kirby, and major crossover artifacts show how Marvel gained legitimacy, visibility, and shared cultural recognition
 - **Scarcity** — first appearances, foundational issues, and landmark objects are treated as rare or pivotal artifacts, which increases their perceived significance
 
 These methods support the museum thesis by helping visitors feel that the material matters historically, not just nostalgically.
+
+## How This Site Was Planned, Built, Reviewed, and Improved
+
+**Planned** — Each major workstream began with a spec document in `docs/_specs/`. Specs defined the curatorial problem, design goals, scope boundaries, risks, and verification criteria before any files were touched. This kept the exhibition from drifting into unstructured edits.
+
+**Built** — Implementation happened in bounded sprint units, one sprint per spec. Each sprint doc listed the exact files to touch, the tasks in order, and the acceptance criteria. Changes were applied directly to the `docs/` site and verified against those criteria before the sprint was closed.
+
+**Reviewed** — After each sprint, a QA pass checked HTML and CSS validity, internal link and media-path integrity, visual alignment across cards and captions, and room-to-room exhibition coherence. Issues found during QA were logged and fixed before moving forward.
+
+**Improved** — The project iterated through several workstreams: the site-exhibition foundation, curatorial enrichment, visual QA standardization, and hero-entry refinement. Each workstream built on the previous one, progressively strengthening the chronology, card systems, room logic, and entry experience. Sprint completion evidence is documented in the corresponding sprint files under `docs/_specs/`.
 
 ## GitHub Pages Deployment
 
