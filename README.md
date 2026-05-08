@@ -1,6 +1,8 @@
-# Marvel Bauhaus Museum
+# Marvel Comic Book Museum
 
-Marvel Bauhaus Museum is a static HTML/CSS digital exhibition that presents Marvel history as a curated museum experience rather than a conventional fan site. The project combines Bauhaus-inspired visual order with comic-book subject matter, organizing the collection around chronology, artifacts, creators, studios, and publication lineage.
+Marvel Comic Book Museum is a static HTML/CSS digital exhibition that presents Marvel history as a curated museum experience rather than a conventional fan site. The project combines Bauhaus-inspired visual order with comic-book subject matter, organizing the collection around chronology, artifacts, creators, studios, and publication lineage.
+
+Museum Live Link: https://ae459.github.io/IS117_MT/
 
 ## Project Overview
 
